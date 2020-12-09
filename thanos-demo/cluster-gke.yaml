@@ -30,7 +30,7 @@ metadata:
   name: thanos-demo-creds
   namespace: linkerd
 data:
-  thanos-demo-creds.json: [GOOGLE_APPLICATION_CREDENTIALS]
+  thanos-demo-creds.json: "BASE64 .JSON key"
 type: Opaque
 ---
 kind: ConfigMap
@@ -42,4 +42,4 @@ data:
   bucket.yml: |-
     type: GCS
     config:
-      bucket: "thanos-demo"
+      bucket: "Bucket´s name, referencial to the GKE Cluster name"

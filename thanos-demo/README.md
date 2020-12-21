@@ -1,5 +1,7 @@
 # Thanos Demo
 
+#### IF GCP EXPORT GOOGLE_APPLICATION_CREDENTIALS
+
 This environment demonstrates deploying
 [Linkerd2](https://github.com/linkerd/linkerd2) and sample apps across 4 cluster
 providers, aggregating metrics into a single
